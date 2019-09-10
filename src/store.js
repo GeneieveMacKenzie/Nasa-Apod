@@ -32,5 +32,7 @@ export default new Vuex.Store({
         console.error(error)
       }
 
+    }
+    
   }
 })

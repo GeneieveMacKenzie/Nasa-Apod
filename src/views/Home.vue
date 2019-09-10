@@ -1,5 +1,8 @@
 <template>
   <div class="home container">
+  <div class="row">
+    <Search />
+  </div>
     <div class="row">
       <Apod />
     </div>
@@ -9,11 +12,13 @@
 <script>
 // @ is an alias to /src
 import Apod from "@/components/Apod.vue";
+import Search from "@/components/Search.vue"
 
 export default {
   name: "home",
   components: {
-    Apod
+    Apod,
+    Search
   }
 };
 </script>

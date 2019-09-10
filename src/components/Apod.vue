@@ -9,14 +9,18 @@
 
 <script>
 export default {
-    name: 'component',
+    name: 'apod',
     data(){
         return {}
     },
-    computed:{},
+    computed:{
+    apod() {
+      return this.$store.state.apod;
+    },
     methods:{},
     components:{}
 }
+};
 </script>
 
 
