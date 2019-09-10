@@ -7,10 +7,9 @@ Vue.use(Vuex)
 
 
 let api = axios.create({
-  baseURL: 'https://api.nasa.gov/planetary/apod?api_key=saRk3N4y4v3hDLR90TMLqrTFliYyW7c2xuRRK83a'
+  baseURL: 'https://api.nasa.gov/planetary/apod?api_key=S3HhaNP6AWF7ncv73lzAJMFaP9WUs3UXCgdfwTxu'
 })
 
-let urlParams
 export default new Vuex.Store({
   state: {
     apod: {}

@@ -6,7 +6,7 @@
           class="btn btn-outline-warning"
           type="button"
           id="button-addon1"
-          @click="getApod()"
+          @click="getApod"
         >Search</button>
       </div>
       <input
